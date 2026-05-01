@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #050505;
+  color: #ffffff;
+  /* Ocultar barra de scroll para que parezca app nativa Web3 */
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+body::-webkit-scrollbar {
+  display: none;
+}
